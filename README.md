@@ -27,5 +27,8 @@ Include the JavaScript:
 Example usage:
 
 ```javascript
-L.control.customSidebar('<p>The Sidebar content</p>', {position: 'topleft'}).addTo(map);
+L.control.customSidebar('<p>The Sidebar content</p>', {
+    position: 'topright',
+    width: '300px'
+}).addTo(map);
 ```
