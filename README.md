@@ -5,7 +5,7 @@ A customizable Sidebar component for Leaflet library.
 ## Installation
 
 ```
-npm install Leaflet.CustomSidebar
+npm install leaflet.customsidebar
 ```
 
 ## Usage
@@ -24,11 +24,17 @@ Include the JavaScript:
 ```
 
 
-Example usage:
+## Example usage:
 
 ```javascript
 L.control.customSidebar('<p>The Sidebar content</p>', {
     position: 'topright',
-    width: '300px'
+    width: '320px'
 }).addTo(map);
 ```
+
+## Options
+
+`position:` The standard Leaflet.Control position parameter. Defaults to 'topleft'   
+`width:` Set the width of the slide menu. Defaults to '300px'   
+`classname:` Parent class of the sidebar container, defaults to '320px'

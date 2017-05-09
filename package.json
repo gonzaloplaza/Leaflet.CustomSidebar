@@ -1,5 +1,5 @@
 {
-  "name": "leaflet-custom-sidebar",
+  "name": "leaflet.customsidebar",
   "version": "1.0.0",
   "description": "A customizable Sidebar component for Leaflet library",
   "main": "src/Leaflet.CustomSidebar.js",
